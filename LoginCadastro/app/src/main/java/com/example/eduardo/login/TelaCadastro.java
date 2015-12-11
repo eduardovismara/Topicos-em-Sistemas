@@ -33,7 +33,7 @@ public class TelaCadastro extends AppCompatActivity {
         String senha = edtPass.getText().toString();
 
         if (usuario.equals("") || senha.equals("")) {
-            Toast.makeText(getApplicationContext(), "Nenhum campo pode estar vazio!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), R.string.campovazio, Toast.LENGTH_LONG).show();
         }else{
             Usuarios u = new Usuarios();
 
@@ -42,7 +42,7 @@ public class TelaCadastro extends AppCompatActivity {
 
             Colecoes.getInstance().getUsuarios().add(u);
 
-            Toast.makeText(getApplicationContext(), "Usuário cadastrado com sucesso!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), R.string.cadastradosucesso, Toast.LENGTH_LONG).show();
             finish();
         }
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Contraseña</string>
+    <string name="entrar">Enter</string>
+    <string name="voltar">Volver</string>
+    <string name="cadastrar">Registro</string>
+    <string name="bemvindo">Bienvenidos</string>
+    <string name="usuarionaocad">El usuario no registrado o contraseña incorrecta!</string>
+    <string name="campovazio">Ningún campo puede estar vacío! </string>
+    <string name="cadastradosucesso">Usuario registrado correctamente!</string>
+</resources>

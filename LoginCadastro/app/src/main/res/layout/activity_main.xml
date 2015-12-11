@@ -10,7 +10,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="login"
+        android:text="@string/entrar"
         android:id="@+id/btnLogin"
         android:onClick="validarLogin"
         android:layout_centerVertical="true"
@@ -19,7 +19,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="cadastrar"
+        android:text="@string/cadastrar"
         android:id="@+id/btnCadastrar"
         android:onClick="cadatrar"
         android:layout_below="@+id/tvErro"
@@ -28,7 +28,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Usuario"
+        android:text="@string/usuario"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -48,7 +48,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Senha"
+        android:text="@string/senha"
         android:id="@+id/textView2"
         android:layout_below="@+id/edtUser"
         android:layout_alignParentTop="true"

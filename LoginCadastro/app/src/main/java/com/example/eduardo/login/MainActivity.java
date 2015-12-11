@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         String senha = edtPass.getText().toString();
 
         if (usuario.equals("") || senha.equals("")) {
-            Toast.makeText(getApplicationContext(), "Nenhum campo pode estar vazio!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), R.string.campovazio, Toast.LENGTH_LONG).show();
         }else{
             for (Usuarios u : Colecoes.getInstance().getUsuarios()) {
 
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(tela2);
 
         }else{
-            Toast.makeText(getApplicationContext(), "Usuário não cadastrado ou senha inválida!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), R.string.usuarionaocad, Toast.LENGTH_LONG).show();
         }
 
 

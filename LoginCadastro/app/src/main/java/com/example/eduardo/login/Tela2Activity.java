@@ -25,7 +25,7 @@ public class Tela2Activity extends AppCompatActivity {
 
         text = (TextView) findViewById(R.id.textView3);
 
-        text.setText("Bem Vindo "+usuario);
+        text.setText(getResources().getText(R.string.bemvindo) +" "+usuario);
 
     }
 
